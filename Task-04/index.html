@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>POKEDEX</title>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <form id="form" class="form-container">
+          <input
+            type="text"
+            id="search"
+            class="search"
+            placeholder="Search the Pokemon"
+          />
+          <input type="button" value="SEARCH" class="search-button" />
+        </form>
+
+        <div class="filter-container">
+          <h2>Filter by type:</h2>
+          <div class="types-container">
+            <button class="type-button" id="fire">Fire</button>
+            <button class="type-button" id="grass">grass</button>
+            <button class="type-button" id="electric">electric</button>
+            <button class="type-button" id="water">water</button>
+            <button class="type-button" id="ground">ground</button>
+            <button class="type-button" id="rock">rock</button>
+            <button class="type-button" id="fairy">fairy</button>
+            <button class="type-button" id="poison">poison</button>
+            <button class="type-button" id="bug">bug</button>
+            <button class="type-button" id="dragon">dragon</button>
+            <button class="type-button" id="psychic">psychic</button>
+            <button class="type-button" id="flying">flying</button>
+            <button class="type-button" id="fighting">fighting</button>
+            <button class="type-button" id="normal">normal</button>
+          </div>
+        </div>
+
+        <div id="poke_container" class="poke-container"></div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </body>
+</html>
